@@ -38,7 +38,7 @@ const Cart = () => {
                                             {item.title}
                                         </h6>
                                     </td>
-                                    <td>Rs. {item.price}</td>
+                                    <td>${item.price}</td>
                                     <td>Quantity ({item.quantity})</td>
                                     <td>
                                         <Button onClick={()=> updateItemQuantity(item.id, item.quantity - 1)} className="ms-2">-</Button>
@@ -56,7 +56,7 @@ const Cart = () => {
                         className={`${theme? 'bg-light-black text-light' : 'bg-light text-balck'} justify-content-center w-100`}
                     >
                         <Col className="py-2">
-                            <h4>Total Price: Rs. {cartTotal}</h4>
+                            <h4>Total Price: ${cartTotal}</h4>
                         </Col>
                         <Col className="p-0" md={4}>
                             <Button variant="danger"

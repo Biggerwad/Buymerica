@@ -28,9 +28,9 @@ const Header = () => {
                 style={{ width: '100%', position: 'fixed', zIndex: 100}}
         >
         <Container>
-          <Link to="/">
+          <Link className='logo' style={{textDecoration:'none'}} to="/">
             <Navbar.Brand className={darkMode? 'text-dark-primary': 'text-light-primary'}>
-                <b>Simple-ecart</b>
+                <b>Buymerica</b>
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -62,7 +62,7 @@ const ProductDetails = (props) => {
                     </Button>
                     <br/>
                     <b className={`${theme? 'text-dark-primary' : 'text-light-primary'} h4 mt-3 d-block`}>
-                        Rs. {productData.price}
+                        ${productData.price}
                     </b>
                     <br/>
                     <b className="h5">4.1 ⭐</b>

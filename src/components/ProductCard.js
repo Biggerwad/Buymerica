@@ -31,7 +31,7 @@ const ProductCard = (props) => {
                     {title}
                 </Card.Title>
                 <Card.Title>
-                    Rs. <span className="h3">{price}</span>
+                    $<span className="h3">{price}</span>
                 </Card.Title>
                 <Button
                     onClick={()=> addToCart()}
